@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yassine Kriouet | Web Developer & SaaS Creator</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+
+  <canvas id="particle-canvas"></canvas>
+
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+  
+
+  <header>
+    <div>Yassine Kriouet</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="toggle-theme" aria-label="Toggle dark/light mode">Light Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" style="opacity:1; transform:none;">
+      <h1 class="glitch" data-text="Yassine Kriouet">Yassine Kriouet</h1>
+      <p class="subtitle">Web Developer &amp; SaaS Creator</p>
+    </section>
+
+    <div id="cube-container" aria-label="Interactive 3D rotating cube">
+      <div id="cube" role="img" aria-roledescription="3D rotating cube with technology labels">
+        <div class="face front">HTML5</div>
+        <div class="face back">CSS3</div>
+        <div class="face right">JavaScript</div>
+        <div class="face left">React.js</div>
+        <div class="face top">Node.js</div>
+        <div class="face bottom">SaaS</div>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+Hi, I’m Yassine — a passionate web developer and SaaS builder. I love creating beautiful, scalable, and performant digital experiences. My mission is to craft elegant code and powerful tools that make life easier for users worldwide.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills" aria-label="List of skills">
+        <li>HTML5</li>
+        <li>CSS3 &amp; Animations</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React.js &amp; Next.js</li>
+        <li>Node.js &amp; Express</li>
+        <li>MongoDB &amp; Databases</li>
+        <li>SaaS Architecture</li>
+        <li>API Design &amp; REST</li>
+        <li>UI/UX Design</li>
+        <li>Version Control (Git)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li><a href="#" target="_blank" rel="noopener noreferrer">SaaS Dashboard - Admin panel for analytics</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">E-commerce Platform - Custom online store</a></li>
+        <li><a href="#" target="_blank" rel="noopener noreferrer">Portfolio Website - Showcasing my work</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Shoot me an <a href="mailto:yassine00kriouet@gmail.com" target="_blank" rel="noopener noreferrer">email</a> or connect on <a href="https://www.linkedin.com/in/yassine-kriouet-8b0245369/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Yassine Kriouet
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
